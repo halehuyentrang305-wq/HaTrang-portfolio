@@ -91,6 +91,36 @@ const classes = computed(() => ["tag", `tag-variant-${props.variant}`]);
       background-color: #95630e;
       color: white;
     }
+
+    &-chatgpt {
+      background-color: #10a37f;
+      color: white;
+    }
+
+    &-claude {
+      background-color: #d97757;
+      color: #2a1206;
+    }
+
+    &-python {
+      background-color: #3776ab;
+      color: #ffd43b;
+    }
+
+    &-powerbi {
+      background-color: #f2c811;
+      color: #3a2f00;
+    }
+
+    &-sql {
+      background-color: #4479a1;
+      color: white;
+    }
+
+    &-excel {
+      background-color: #217346;
+      color: white;
+    }
   }
 }
 </style>

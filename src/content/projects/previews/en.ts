@@ -1,47 +1,28 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
-//import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
-import thumbnailStreakon from "../../../assets/thumbnails/streakon.webp";
+// NOTE: thumbnails are placeholders reusing existing template images.
+// Replace with real project screenshots when available.
+import thumbnailEvaluation from "../../../assets/thumbnails/quibbo.webp";
+import thumbnailBusinessCase from "../../../assets/thumbnails/streakon.webp";
+import thumbnailSupplyChain from "../../../assets/thumbnails/cubewar.webp";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "StreakOn",
-    slug: "streakon",
-    thumbnail: thumbnailStreakon,
-    description: "Social habit tracking app",
+    title: "ChatGPT vs Claude Evaluation Framework",
+    slug: "chatgpt-vs-claude",
+    thumbnail: thumbnailEvaluation,
+    description: "LLM evaluation framework",
   },
   {
-    title: "CubeWar",
-    slug: "cubewar",
-    thumbnail: thumbnailCubeWar,
-    description: "Multiplayer strategy game",
+    title: "AI Business Case Analysis",
+    slug: "ai-business-case",
+    thumbnail: thumbnailBusinessCase,
+    description: "AI adoption business case",
   },
   {
-    title: "Quibbo",
-    slug: "quibbo",
-    thumbnail: thumbnailQuibbo,
-    description: "Multiplayer gaming platform",
-  },
-  {
-    title: "Sharkie",
-    slug: "sharkie",
-    thumbnail: thumbnailSharkie,
-    description: "2D adventure game",
-  },
-  /**  {
-    title: "WebGL Particles",
-    slug: "particles",
-    thumbnail: thumbnailParticles,
-    description: "Dynamic 3D particles",
-  }, */
-  {
-    title: "Pokédex",
-    slug: "pokedex",
-    thumbnail: thumbnailPokedex,
-    description: "Open-source learning project",
+    title: "NVIDIA Supply Chain Analysis",
+    slug: "nvidia-supply-chain",
+    thumbnail: thumbnailSupplyChain,
+    description: "Supply chain data analysis",
   },
 ] as const satisfies ProjectPreview[];
