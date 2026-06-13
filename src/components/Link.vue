@@ -13,6 +13,8 @@ const props = defineProps<{
   replace?: boolean;
 }>();
 
+const isMailto = computed(() => (props.href || props.to || "").startsWith("mailto:"));
+
 const resolvedTo = computed(() => {
   const base = props.href || props.to || "/";
 
@@ -48,8 +50,8 @@ const handleClick = (event: MouseEvent) => {
     v-if="props.external"
     :is="props.renderAs || 'a'"
     :href="props.href || props.to"
-    target="_blank"
-    rel="noopener noreferrer"
+    :target="isMailto ? undefined : '_blank'"
+    :rel="isMailto ? undefined : 'noopener noreferrer'"
     v-bind="attrs"
   >
     <slot></slot>
