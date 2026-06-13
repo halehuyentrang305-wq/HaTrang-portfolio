@@ -1,8 +1,6 @@
-// NOTE: thumbnails are placeholders reusing existing template images.
-// Replace with real project screenshots when available.
-import thumbnailEvaluation from "../../../assets/thumbnails/quibbo.webp";
-import thumbnailBusinessCase from "../../../assets/thumbnails/streakon.webp";
-import thumbnailSupplyChain from "../../../assets/thumbnails/cubewar.webp";
+import thumbnailEvaluation from "../../../assets/images/projects/project1.png";
+import thumbnailBusinessCase from "../../../assets/images/projects/project2.png";
+import thumbnailSupplyChain from "../../../assets/images/projects/project3.png";
 
 import type { ProjectPreview } from "../../types";
 
