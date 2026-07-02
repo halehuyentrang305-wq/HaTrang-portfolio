@@ -121,6 +121,26 @@ const classes = computed(() => ["tag", `tag-variant-${props.variant}`]);
       background-color: #217346;
       color: white;
     }
+
+    &-vite {
+      background-color: #646cff;
+      color: white;
+    }
+
+    &-firebase {
+      background-color: #ffca28;
+      color: #3a2f00;
+    }
+
+    &-tailwind {
+      background-color: #38bdf8;
+      color: #0b2a38;
+    }
+
+    &-vercel {
+      background-color: black;
+      color: white;
+    }
   }
 }
 </style>

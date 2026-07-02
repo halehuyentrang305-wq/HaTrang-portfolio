@@ -18,7 +18,11 @@ export type TagVariant =
   | "python"
   | "powerbi"
   | "sql"
-  | "excel";
+  | "excel"
+  | "vite"
+  | "firebase"
+  | "tailwind"
+  | "vercel";
 
 export const tagLabels = {
   three: "Three.js",
@@ -41,4 +45,8 @@ export const tagLabels = {
   powerbi: "Power BI",
   sql: "SQL",
   excel: "Excel",
+  vite: "Vite",
+  firebase: "Firebase",
+  tailwind: "Tailwind CSS",
+  vercel: "Vercel",
 } as const satisfies Record<TagVariant, string>;

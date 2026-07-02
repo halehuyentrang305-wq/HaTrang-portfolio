@@ -1,3 +1,4 @@
+import thumbnailOegCyberHub from "../../../assets/images/projects/oeg-cyber-hub.svg";
 import thumbnailEvaluation from "../../../assets/images/projects/project1.png";
 import thumbnailBusinessCase from "../../../assets/images/projects/project2.png";
 import thumbnailSupplyChain from "../../../assets/images/projects/project3.png";
@@ -5,6 +6,12 @@ import thumbnailSupplyChain from "../../../assets/images/projects/project3.png";
 import type { ProjectPreview } from "../../types";
 
 export default [
+  {
+    title: "OEG Cyber Hub — F&B-Bestell- & Warteschlangen-App",
+    slug: "oeg-cyber-hub",
+    thumbnail: thumbnailOegCyberHub,
+    description: "Echtzeit-F&B-Bestell-App",
+  },
   {
     title: "ChatGPT vs. Claude – Evaluierungs-Framework",
     slug: "chatgpt-vs-claude",
